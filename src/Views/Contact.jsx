@@ -3,7 +3,10 @@ import About from '../components/About/About'
 
 const Contact = () => {
   return (
-    <div><About/></div>
+      <div>
+          <About />
+          
+      </div>
   )
 }
 

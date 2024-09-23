@@ -4,6 +4,7 @@ import './App.css';
 
 import Contact from './Views/Contact';
 import Home from './Views/Home';
+import Learn from './components/Learn/Learn';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
    <BrowserRouter>
    <Routes>
         <Route path='/' element={<Home/> } />
-          <Route path='contact-us' element={ <Contact/>} />
+        <Route path='contact-us' element={<Contact />} />
+        <Route path='Learn-with-us' element={<Learn/>}/>
         </Routes>
       </BrowserRouter> 
   );
